@@ -1,0 +1,92 @@
+.fondo{
+background-image:url(img/bosque.jpg);
+height: 40vh;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+.color-custom{
+color: rgb(121, 214, 218);
+-webkit-text-stroke: 0.2px #060d2b;
+
+}
+p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.color-custom-b{
+    color: aliceblue;
+}
+.color-custom-c{
+    color: rgb(20, 8, 49);
+    text-shadow: 0px 4px 0px rgb(96, 179, 182);
+}
+.navbar{
+background: linear-gradient(45deg,rgba(255, 0, 76, 0.658),rgb(129, 104, 197));
+}
+
+.si p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.spo{
+ filter: drop-shadow(0px 5px 3px #1cbc5c);
+}
+.color-custom-d{
+    color: #2a1b46;
+}
+
+body{
+background: linear-gradient(45deg,rgba(69, 123, 139, 0.699),rgb(70, 48, 131));
+background-size: 500%;
+animation: color 10s infinite;
+}
+@keyframes color {
+0%{
+    background-position: 0% 50%;
+}
+50%{
+    background-position: 100% 50%;
+}
+100%{
+    background-position: 0% 50%;
+}
+}
+.animacion:hover{
+    background-color: #2a1b46;
+    transition: 1s;
+    scale: 1.1;
+    rotate: 360deg;
+}
+
+.busqueda{
+border-radius: 100px;
+}
+.busqueda:hover{
+color: #ffffff;
+scale: 1.1;
+transition: 300ms;
+background: linear-gradient(#1cbc5c, rgb(11, 97, 85));
+background-size: 500%;
+animation: infinite 10s infinite;
+border-radius: 100px;
+}
+.oscuridad{
+    box-shadow: 0px 20px 7px rgba(65, 105, 225, 0.466);
+}
+.coloresa{
+    color: #f34d1a;
+}
+.coloresb{
+    color: #f7cd45;
+}
+.coloresc{
+    color: #fddb19;
+}
+.coloresd{
+    color: #e91f4b;
+}
+.colorese{
+    color: #1f9bee;
+}
+.coloresf{
+    color: #19e0e0;
+}
